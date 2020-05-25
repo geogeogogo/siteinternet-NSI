@@ -1,0 +1,51 @@
+.maintheme
+{
+	background-color : black;
+	color : white;
+	font-family : cursive;
+	text-align : center;
+}
+
+.titre
+{
+	color : RGB(44, 117, 255);
+	text-decoration: underline;
+}
+
+.sous-titre
+{
+	text-decoration: underline;
+	color : RGB(255, 94, 77);
+}
+
+.sous-titre2
+{
+	color : RGB(120,120,120)
+}
+
+.tab
+{	
+	border-collapse: collapse;
+	border-width : px;
+	border-style : solid;
+	margin-left: auto;
+    margin-right: auto;
+	border-color : RGB(151, 223, 198);
+}
+
+.lien
+{
+	color : RGB(151, 223, 198);
+}
+
+.head
+{
+	border-collapse: collapse;
+	font-family : fantasy;
+	border-width : px;
+	border-style : solid;
+	margin-left: auto;
+    margin-right: auto;	
+}
+
+
