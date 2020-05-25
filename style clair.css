@@ -1,0 +1,50 @@
+.maintheme
+{
+	background-color : rgb(252, 173, 155);
+	font-family : cursive;
+	text-align : center;
+}
+
+.titre
+{
+	color : RGB(44, 117, 255);
+	text-decoration: underline;
+}
+
+.tab
+{	
+	border-collapse: collapse;
+	border-width : 1px;
+	border-style : solid;
+	margin-left: auto;
+    margin-right: auto;
+	border-color : black;
+}
+
+.head
+{
+	border-collapse: collapse;
+	font-family : fantasy;
+	border-width : px;
+	border-style : solid;
+	margin-left: auto;
+    margin-right: auto;
+	border-color : black;
+}
+
+.sous-titre
+{
+	text-decoration: underline;
+	color : RGB(222, 41, 22);
+}
+
+.sous-titre2
+{
+	color : #00ffff
+}
+
+.lien
+{
+	color : rgb(105,6,106);
+}
+

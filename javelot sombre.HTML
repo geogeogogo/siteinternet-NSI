@@ -3,10 +3,29 @@
     <head>
         <title>Le lancer de javelot</title>
         <meta charset="utf-8">
-		<link rel="stylesheet" href="css test.css"/>
+		<link rel="stylesheet" href="style sombre.css"/>
+		<script type="text/JavaScript">
+    
+    style = "style clair.css";
+    function changer()
+    { 
+        if(style === "style clair.css")
+        { 
+            style = "style sombre.css";
+        }
+        else
+        { 
+            style = "style clair.css";
+        }
+        document.getElementsByTagName("link")[0].href = style;
+    }
+    
+    </script>
     </head>
 
     <body class = "maintheme">
+	
+		<button onclick = "changer()">Changer</button>
         <h1 class = "titre">Le lancer de javelot</h1>
         <h2 class = "sous-titre">Principe:</h2>
 		<p> Le <strong>lancer du javelot</strong> est une discipline de l'athlétisme consistant à lancer un engin appelé javelot fait en métal, en fibre de verre ou en fibre de carbone (anciennement en bois). Cette épreuve n'est pas toujours présente 

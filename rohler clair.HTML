@@ -3,10 +3,28 @@
     <head>
         <title>Thomas Röhler</title>
         <meta charset="utf-8">
-		<link rel="stylesheet" href="css2.css"/>
+		<link rel="stylesheet" href="style clair.css"/>
+		<script type="text/JavaScript">
+    
+    style = "style clair.css";
+    function changer()
+    { 
+        if(style === "style clair.css")
+        { 
+            style = "style sombre.css";
+        }
+        else
+        { 
+            style = "style clair.css";
+        }
+        document.getElementsByTagName("link")[0].href = style;
+    }
+    
+    </script>
     </head>
 
     <body class = "maintheme">
+	<button onclick = "changer()">Changer</button>
         <h1 class = "titre">Thomas Röhler</h1>
 			<img src = "https://upload.wikimedia.org/wikipedia/commons/e/e5/Thomas_R%C3%B6hler_2017_European_Team_Championships.jpg" alt = "Thomas Röhler" title = "Thomas Röhler, champion olympique 2016" class = "img">
         <h2 class = "sous-titre">Biographie</h2>
